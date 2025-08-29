@@ -1,0 +1,15 @@
+services:
+  local-db:
+    image: postgres:alpine
+    environment:
+      POSTGRES_PASSWORD: slasher123
+      POSTGRES_USER: user-local
+      POSTGRES_DB: slasher-local
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+volumes:
+  pgdata:
+    driver: local
