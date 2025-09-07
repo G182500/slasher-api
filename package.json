@@ -8,6 +8,7 @@
   "scripts": {
     "build": "nest build",
     "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit push",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "start": "nest start",
     "start:dev": "ts-node-dev --respawn --transpile-only src/main.ts",
