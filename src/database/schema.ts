@@ -1,7 +1,10 @@
-import * as movies from "./schemas/movies";
+import * as character from "./schemas/character";
+import * as movie from "./schemas/movie";
 
 export const schema = {
-  ...movies
+  ...movie,
+  ...character
 };
 
-export * from "./schemas/movies";
+export * from "./schemas/movie";
+export * from "./schemas/character";

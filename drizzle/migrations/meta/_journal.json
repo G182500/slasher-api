@@ -8,6 +8,13 @@
       "when": 1756510478062,
       "tag": "0000_secret_maelstrom",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1757553544889,
+      "tag": "0001_parallel_vampiro",
+      "breakpoints": true
     }
   ]
 }
